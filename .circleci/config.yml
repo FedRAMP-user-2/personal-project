@@ -8,4 +8,4 @@ jobs:
           command: |
             echo "Hello, from a simple sample project!"
             echo "Can a non-admin make a change?"
-	    whoami
+            echo "this shouldn't work..."
