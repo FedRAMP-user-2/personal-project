@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    machine: true
+    steps:
+      - run:
+          name: sayHi
+          command: |
+            echo "Hello, from a simple sample project!"
